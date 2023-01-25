@@ -1,0 +1,9 @@
+@media screen and (max-width:1014px){
+    .sidebar-navigation{
+        top: -9999px !important;
+        left: -9999px !important;
+    }
+    .main{
+        margin-left: 0px;
+    }
+}

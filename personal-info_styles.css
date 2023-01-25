@@ -1,0 +1,124 @@
+.form-input-feild{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 6px;
+}
+.form-input-feild-label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+}
+.form-input-feild-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14px;
+    width: 100%;
+    height: 44px;
+    gap: 8px;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+.form-input-feild-box input{
+    padding: 0px 0px;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #101828;
+}
+.personal-info{
+    margin-top: 48px;
+    display: flex;
+    gap: 32px;
+    padding: 0px 32px;
+}
+.personal-info-text{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+.personal-info-text-main{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+}
+.personal-info-text-sub{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #475467;
+}
+.personal-info-form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EAECF0;
+    box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
+    border-radius: 12px;
+    width: 100%;
+}
+.personal-info-form-content{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 24px;
+    width: 100%;
+}
+.personal-info-form-content-name{
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+.personal-info-form-content-upload{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.personal-info-form-content-upload-file{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    width: 100%;
+    border: 1px solid #EAECF0;
+    border-radius: 12px;
+    gap: 12px;
+}
+.personal-info-form-content-upload-file-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.personal-info-form-content-upload-file-text-click{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6941C6;
+}
+.action-buttons{
+    border-top: 1px solid #EAECF0;
+    padding: 16px 24px;
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+}
